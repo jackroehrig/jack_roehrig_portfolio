@@ -19,6 +19,8 @@ body {
     border: 10px solid rgb(140, 231, 141); 
     color:rgb(76, 126, 77);
     font-family: Verdana, sans-serif;
+    position: relative;
+    top: 15px;
 }
 
 #name {
@@ -34,7 +36,7 @@ body {
 
 .main {
     background-color: white;
-    height: 800px;
+    height: 950px;
     width: 1100px;
     margin: auto;
     margin-bottom: 100px;
@@ -47,6 +49,28 @@ body {
     font-size: 30px;
     padding-left: 100px;
     padding-right: 100px;
+}
+
+.headings {
+    width: 300px;
+    height: 45px;
+    border: 6px solid rgb(140, 231, 141);
+    border-radius: 30px;
+    background-color:rgb(255, 219, 247);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio_img {
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.portfolio_img:hover {
+    border: 5px solid rgb(140, 231, 141);
 }
 
 .main-bottom {
@@ -68,10 +92,24 @@ body {
     top: 30px;
 }
 
+#phoneCred {
+    position: relative;
+    left: 295px;
+    top: 10px;
+    font-size: 15px;
+}
+
 #envelope {
     width: 200px;
     height: 130px;
     position: relative;
     left: 150px;
     top: 50px;
+}
+
+#envelopeCred {
+    position: relative;
+    left: 150px;
+    top: 40px;
+    font-size: 15px;
 }
