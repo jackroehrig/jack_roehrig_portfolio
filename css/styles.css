@@ -10,7 +10,7 @@ body {
     border-top: 6px dashed rgb(130, 231, 141);
 }
 
-.header {
+header {
     background-color: white;
     border-radius: 30px;
     height: 150px;
